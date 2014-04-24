@@ -1,8 +1,5 @@
 require './lib/config'
 
-Capybara.default_driver = :selenium
-Capybara.app_host = 'https://github.com/jnicklas/capybara'
-
 describe "Test Capybara and Rspec", :type => :feature do
 
   it "Got to Github" do
